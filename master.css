@@ -1,0 +1,210 @@
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #fbfbfb;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px #e4e4e4 solid
+}
+
+body{
+    margin: 0;
+    font-family: Lato; 
+    color: #333333
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+/*Headre and navbar*/
+
+.header-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.logo-container{
+    width: 30%;
+    margin: 0;
+}
+.logo-container h1{
+    color: #FFAF00;
+    margin-top: 1%;
+}
+
+.logo-container span{
+    color: #2CA9A5;
+    font-family: Lato; 
+}
+
+.logo-container h1{
+    font-size: 24px;
+}
+
+.navbar{
+    width: 70%;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    padding-left: 12%;
+    padding-top: 10px;
+  }
+
+.navbar li {
+    float: left;
+    margin-left: 3%;
+    text-align: center;
+  }
+
+  .navbar li:nth-child(2) {
+    margin-top: -1%;
+  }
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .book-button {
+    background-color: #FFAF00;
+    padding: 5px 13px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+  }
+
+  /* Carousel*/
+.carousel-container{
+    margin: 0;
+    padding-top: 90px;
+    width:100%;
+    height: 350px;
+    background-image: url(pictures/carousel.png);
+    background-size: cover;
+}
+
+
+/*city highlights*/
+
+.city-highlights{
+}
+
+.city-highlights-pictures{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    color: white;
+    font-family: "Pacifico";
+    text-align: center;
+    position: relative;
+}
+
+.city-name{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.column img {
+    width: 100%;
+}
+ /*tours near by*/
+
+.tours-near-by-pictures{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+.tours-near-by{
+    background-color: #EEEEEE;
+    padding-bottom: 4%;
+}
+
+.tours-near-by h2{
+    padding-top: 3%;
+}
+
+/*become a guide*/
+
+.become-guide{
+    padding-top: 3%
+    pading-bottom" 3%;
+}
+.become-guide-icons{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.icon-column {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+    color: #333333;
+    text-align: center;
+    position: relative;
+    size: 30%;
+}
+
+.icon-column i{
+    width: 100%;
+    height: auto;
+    font-size: 120px;
+    color: #2CA9A5;
+}
+
+/*footer*/
+.footer{
+    background-color: #C4C4C4;
+    height: 50px;
+}
+
+.footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    padding-left: 12%;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+
+.footer li {
+    float: left;
+    margin-left: 4%;
+    text-align: center;
+  }
+
+.copyrights{
+    left: 0;
+    margin-right: 60%;
+}
+
+
+
+/* General styling  */
+
+.Pacifico{
+    font-family: 'Pacifico', cursive; 
+}
